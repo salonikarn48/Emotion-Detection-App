@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+</head>
+<body>
+    <h1>Emotion Detection</h1>
+
+    <label for="textToAnalyze">
+        Enter text to analyze:
+    </label>
+
+    <textarea id="textToAnalyze" rows="5" cols="50"></textarea>
+
+    <br><br>
+
+    <button onclick="RunSentimentAnalysis()">
+        Analyze Emotion
+    </button>
+
+    <br><br>
+
+    <div id="system_response"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
